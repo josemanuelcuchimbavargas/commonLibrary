@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../commonLibrary/0.0.1/commonLibrary-0.0.1.module",
+    "group": "com.example",
+    "module": "commonLibrary",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.4.1",
+      "buildId": "phb7oldtsfbohaw6j5mn7w4s3u"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "commonLibrary-metadata-0.0.1.jar",
+          "url": "commonLibrary-metadata-0.0.1.jar",
+          "size": 5352,
+          "sha512": "0e0a6090407055cbdfc827b635dc8432ca9a6cd51e852159c3e6bf519a86ad7a8022a6097f89a5865a6e07fa1dbd24a0e5c97db5c532da0931930bd6d53d4ec3",
+          "sha256": "74686ecc5e2f2d739dd9af3619a7eccd4f789578b7ea2fc59bc5791bb8f76dfc",
+          "sha1": "65a37acad2c473a885df642a5381fdc82b53ffc4",
+          "md5": "9c27f93642890cff6494ebd1a6b267cb"
+        }
+      ]
+    }
+  ]
+}

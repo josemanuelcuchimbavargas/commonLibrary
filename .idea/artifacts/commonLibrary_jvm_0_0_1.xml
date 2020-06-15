@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="commonLibrary-jvm-0.0.1">
+    <output-path>C:\Users\puker\IdeaProjects\commonLibrary\build\libs</output-path>
+    <root id="archive" name="commonLibrary-jvm-0.0.1.jar" />
+  </artifact>
+</component>

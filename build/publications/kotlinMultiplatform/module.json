@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example",
+    "module": "commonLibrary",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.4.1",
+      "buildId": "phb7oldtsfbohaw6j5mn7w4s3u"
+    }
+  },
+  "variants": [
+    {
+      "name": "ios-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../commonLibrary-ios/0.0.1/commonLibrary-ios-0.0.1.module",
+        "group": "com.example",
+        "module": "commonLibrary-ios",
+        "version": "0.0.1"
+      }
+    },
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../commonLibrary-jvm/0.0.1/commonLibrary-jvm-0.0.1.module",
+        "group": "com.example",
+        "module": "commonLibrary-jvm",
+        "version": "0.0.1"
+      }
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../commonLibrary-jvm/0.0.1/commonLibrary-jvm-0.0.1.module",
+        "group": "com.example",
+        "module": "commonLibrary-jvm",
+        "version": "0.0.1"
+      }
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../commonLibrary-metadata/0.0.1/commonLibrary-metadata-0.0.1.module",
+        "group": "com.example",
+        "module": "commonLibrary-metadata",
+        "version": "0.0.1"
+      }
+    }
+  ]
+}

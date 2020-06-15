@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../commonLibrary/0.0.1/commonLibrary-0.0.1.module",
+    "group": "com.example",
+    "module": "commonLibrary",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.4.1",
+      "buildId": "phb7oldtsfbohaw6j5mn7w4s3u"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "commonLibrary-jvm-0.0.1.jar",
+          "url": "commonLibrary-jvm-0.0.1.jar",
+          "size": 41143,
+          "sha512": "5a349c6b3935ebd2587d03485407a8ff98b9a13a729d9bad1079c38245bb097d7c364b273db6318cf8d11b93117234b6490697ee8b4410f31dfa6fb17e5036f9",
+          "sha256": "679a6d6e7342c5776d47b132651bacc720c87e7cad549daa574e9a33e48509bf",
+          "sha1": "589aecf922d5dc8ca7b22924a4caeaa10e024f8d",
+          "md5": "17835715937ce07d0ca2b2fc9c00a74a"
+        }
+      ]
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-runtime",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-jvm",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-jvm",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-runtime-common",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "commonLibrary-jvm-0.0.1.jar",
+          "url": "commonLibrary-jvm-0.0.1.jar",
+          "size": 41143,
+          "sha512": "5a349c6b3935ebd2587d03485407a8ff98b9a13a729d9bad1079c38245bb097d7c364b273db6318cf8d11b93117234b6490697ee8b4410f31dfa6fb17e5036f9",
+          "sha256": "679a6d6e7342c5776d47b132651bacc720c87e7cad549daa574e9a33e48509bf",
+          "sha1": "589aecf922d5dc8ca7b22924a4caeaa10e024f8d",
+          "md5": "17835715937ce07d0ca2b2fc9c00a74a"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../commonLibrary-metadata/0.0.1/commonLibrary-metadata-0.0.1.module",
+        "group": "com.example",
+        "module": "commonLibrary-metadata",
+        "version": "0.0.1"
+      }
+    }
+  ]
+}

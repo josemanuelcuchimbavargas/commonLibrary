@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonLibrary.commonMain~1.iml" filepath="$PROJECT_DIR$/.idea/modules/commonLibrary.commonMain~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonLibrary.commonTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/commonLibrary.commonTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonLibrary.iosMain~1.iml" filepath="$PROJECT_DIR$/.idea/modules/commonLibrary.iosMain~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonLibrary.iosTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/commonLibrary.iosTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonLibrary.jvmMain~1.iml" filepath="$PROJECT_DIR$/.idea/modules/commonLibrary.jvmMain~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commonLibrary.jvmTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/commonLibrary.jvmTest~1.iml" />
+    </modules>
+  </component>
+</project>
